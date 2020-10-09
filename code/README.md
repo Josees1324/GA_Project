@@ -1,3 +1,4 @@
+### How to play
 -When the game loads player 1 starts and picks a number in a category to get a random question and that option goes away
 
 -If player 1 gets the answer right they get that amount of points and goes again
@@ -8,3 +9,9 @@
 
 -The game continues until a player reaches 10000 points and then the game resets
 
+### Explanation of the technologies used
+
+### Problems and forthcoming features
+- Getting some of the features to work like the usable items that give you more time and the item that doubles your points 
+- Getting the timer to work 
+- Getting multiple levels to work 
