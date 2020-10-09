@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="questions.js"></script>
+	<script type="text/javascript" src="app.js"></script> -->
+</head>
+<body>
+
+	<table>
+<tr>
+<td colspan=5><h1 id="title"><!-- JEOPARDY! --><div>Player One: <span id="score1"></span></div> <img class="jeopardy" src="https://www.wboy.com/wp-content/uploads/sites/43/2020/01/Jeopardy-logo.jpg?w=900"> <div>Player Two: <span id="score2"></span></div></h1> </td>
+</tr>
+	<div>
+		<tr class="headers">
+        	<td><h1> Basketball </h1></td>
+        	<td><h1> Tv Shows </h1></td>
+        	<td><h1> Music </h1></td>
+        	<td><h1> Animals </h1></td> 
+        	<td><h1> Random </h1></td>
+		</tr>
+	</div>
+
+	<div class="table1">
+		<tr>
+      		<td><h1> <button class="category" data-category="basketball" data-amount="100">$100</button>  </h1></td>
+        	<td><h1> <button class="category" data-category="tv" data-amount="100">$100</button> </h1></td>
+        	<td><h1> <button class="category" data-category="music" data-amount="100">$100</button> </h1></td>
+        	<td><h1> <button class="category" data-category="animals" data-amount="100">$100</button> </h1></td>
+        	<td><h1> <button class="category" data-category="random" data-amount="100">$100</button> </h1></td>
+		</tr>
+		<tr>
+        	<td><h1> <button class="category" data-category="basketball" data-amount="200">$200</button> </h1></td>
+        	<td><h1> <button class="category" data-category="tv" data-amount="200">$200</button> </h1></td>
+        	<td><h1> <button class="category" data-category="music" data-amount="200">$200</button> </h1></td>
+        	<td><h1> <button class="category" data-category="animals" data-amount="200">$200</button> </h1></td>
+        	<td><h1> <button class="category" data-category="random" data-amount="200">$200</button> </h1></td>
+		</tr>
+		<tr>
+        	<td><h1> <button class="category" data-category="basketball" data-amount="300">$300</button> </h1></td>
+        	<td><h1> <button class="category" data-category="tv" data-amount="300">$300</button> </h1></td>
+        	<td><h1> <button class="category" data-category="music" data-amount="300">$300</button> </h1></td>
+        	<td><h1> <button class="category" data-category="animals" data-amount="300">$300</button> </h1></td>
+        	<td><h1> <button class="category" data-category="random" data-amount="300">$300</button> </h1></td>
+		</tr>
+		<tr>
+        	<td><h1> <button class="category" data-category="basketball" data-amount="400">$400</button> </h1></td>
+        	<td><h1> <button class="category" data-category="tv" data-amount="400">$400</button> </h1></td>
+        	<td><h1> <button class="category" data-category="music" data-amount="400">$400</button> </h1></td>
+        	<td><h1> <button class="category" data-category="animals" data-amount="400">$400</button> </h1></td>
+        	<td><h1> <button class="category" data-category="random" data-amount="400">$400</button> </h1></td>
+		</tr>
+		<tr>
+        	<td><h1> <button class="category" data-category="basketball" data-amount="500">$500</button> </h1></td>
+        	<td><h1> <button class="category" data-category="tv" data-amount="500">$500</button> </h1></td>
+        	<td><h1> <button class="category" data-category="music" data-amount="500">$500</button> </h1></td>
+        	<td><h1> <button class="category" data-category="animals" data-amount="500">$500</button> </h1></td>
+        	<td><h1> <button class="category" data-category="random" data-amount="500">$500</button> </h1></td>
+		</tr>
+	</div>
+
+
+	<!-- <div id="start">Start Game!</div> -->
+	<div id="question">
+
+	</div>
+	<div id="choices">
+		<div class="choice" id="choiceA" onclick="checkAnswer('A')">A</div>
+		<div class="choice" id="choiceB" onclick="checkAnswer('B')">B</div>
+		<div class="choice" id="choiceC" onclick="checkAnswer('C')">C</div>
+	</div>
+
+	<div id="hideOne">Hide One Choice</div>
+	<div id="doublePoints">Double Points</div>
+
+
+	<!-- <div>Player One: <span id="score1"></span></div> -->
+	<!-- <div>Player Two: <span id="score2"></span></div> -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="questions.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
